@@ -6,6 +6,9 @@
 //plus the value of the name parameter.
 
 //Code here
+function greeting(name){
+  return 'Hello, ' + name;
+}
 
 //////////////////PROBLEM 2////////////////////
 
@@ -13,6 +16,9 @@
 //Name it newGreeting.
 
 //Code Here
+newGreeting = function (name){
+  return 'Hello, ' + name;
+}
 
 //////////////////PROBLEM 3////////////////////
 
@@ -20,6 +26,7 @@
 //Name it finalGreeting.
 
 //Code Here
+
 
 //////////////////PROBLEM 4////////////////////
 
