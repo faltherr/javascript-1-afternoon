@@ -107,6 +107,16 @@ let ruff = dog.bark();
 
 //Code Here
 
+let looper = (arr) => {
+  let mySum = 0;
+  for (var i = 0; i < arr.length; i++){
+    if (arr[i] % 2 === 1 | arr[i] >= 100) {
+      mySum += arr[i];
+    }
+  }
+  return mySum;
+}
+
 //////////////////PROBLEM 7////////////////////
 
 //Given the following function called math
