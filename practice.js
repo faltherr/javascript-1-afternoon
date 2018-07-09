@@ -43,12 +43,24 @@ var groceries = ["apples", "milk", "eggs", "bread"];
 //doubleCheck should return the array.
 
 //Code Here
-// var doubleCheck = (arr) => 
-//   if arr.includes("chocalate"){
-//     return "Go shopping";
-//   } else {
-//     arr.push('chocolate');
-//   };
+// function doubleCheck(arr){
+//    if (arr.includes("chocalate")){
+//           return "Go shopping";
+//    } else {
+//      arr.push('chocolate');
+//    }
+//    return arr;
+//   }
+
+var doubleCheck = (arr) => {
+  if (arr.includes("chocalate")){
+    return "Go shopping";
+  } else {
+    arr.push('chocolate');
+  }
+  return arr;
+}
+
 
 //////////////////PROBLEM 5////////////////////
 
@@ -58,20 +70,29 @@ var groceries = ["apples", "milk", "eggs", "bread"];
 //and goodBoy (a boolean).
 
 //Code Here
+var dog = {
+  name: "Fido",
+  color: "Mosaic",
+  age: 97,
+  goodBoy: true
+}
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
 //Code Here
+let devMountainClassPet = dog.name;
 
 //Add a method to dog called bark.
 //The value of bark should be a function that returns the string "Woof woof".
 
 //Code Here
+dog.bark = () => "Woof woof"
 
 //Store the result of invoking the bark method in a variable called ruff.
 
 //Code Here
+let ruff = dog.bark();
 
 //////////////////PROBLEM 6////////////////////
 
